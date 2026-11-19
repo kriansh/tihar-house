@@ -2937,6 +2937,8 @@ main.deck {
   position: absolute;
   inset: 0;
   display: block;
+  /* Warm placeholder while the deferred image arrives. */
+  background: radial-gradient(120% 90% at 50% 62%, rgba(66, 42, 26, 0.55), rgba(5, 4, 8, 0.94));
 }
 
 .slide__media img {

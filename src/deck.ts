@@ -88,13 +88,39 @@ export class Deck {
     this.bindCards();
   }
 
+  /* Only the first slide carries a real src at mount time. The rest keep their
+     URLs in data attributes so hidden slides never compete for bandwidth. */
   private mediaMarkup(spec: SlideSpec): string {
     const img = spec.image;
+    const portrait = `${BASE}images/${img}-portrait.webp`;
+    const wide = `${BASE}images/${img}-1600.webp`;
+    const wideSet = `${wide} 1600w, ${BASE}images/${img}-2400.webp 2400w`;
+    const first = spec.id === "intro";
     return `<picture class="slide__media">
-      <source media="(max-aspect-ratio: 1/1)" srcset="${BASE}images/${img}-portrait.webp" />
-      <img src="${BASE}images/${img}-1600.webp" srcset="${BASE}images/${img}-1600.webp 1600w, ${BASE}images/${img}-2400.webp 2400w"
-        sizes="100vw" alt="${spec.alt}" ${spec.id === "intro" ? 'fetchpriority="high"' : 'fetchpriority="low"'} decoding="async" />
+      <source media="(max-aspect-ratio: 1/1)" ${first ? `srcset="${portrait}"` : `data-srcset="${portrait}"`} />
+      <img ${first ? `src="${wide}" srcset="${wideSet}" fetchpriority="high"` : `data-src="${wide}" data-srcset="${wideSet}" fetchpriority="low"`}
+        sizes="100vw" alt="${spec.alt}" decoding="async" />
     </picture>`;
+  }
+
+  private loadImage(index: number, priority: "high" | "low" = "low"): void {
+    const slide = this.slides[index];
+    if (!slide) return;
+    const source = slide.querySelector<HTMLSourceElement>(".slide__media source");
+    const img = slide.querySelector<HTMLImageElement>(".slide__media img");
+    if (source?.dataset.srcset) {
+      source.srcset = source.dataset.srcset;
+      delete source.dataset.srcset;
+    }
+    if (img?.dataset.src) {
+      img.src = img.dataset.src;
+      delete img.dataset.src;
+    }
+    if (img?.dataset.srcset) {
+      img.srcset = img.dataset.srcset;
+      delete img.dataset.srcset;
+    }
+    if (img) img.fetchPriority = priority;
   }
 
   private creditMarkup(spec: SlideSpec): string {
@@ -399,6 +425,8 @@ export class Deck {
     if (clamped === this.active && !immediate) return;
     const previous = this.active;
     this.active = clamped;
+    this.loadImage(clamped, "high");
+    this.loadImage(Math.min(clamped + 1, SLIDES.length - 1), "low");
     this.slides.forEach((slide) => this.resetCard(slide));
     this.slides.forEach((slide, i) => {
       const active = i === clamped;

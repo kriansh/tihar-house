@@ -169,6 +169,19 @@
       "words": "Words & sources"
     },
     "dates": {
+      "title": "Tihar 2083 / 2026",
+      "range": "7–11 November 2026",
+      "bs": "Kartik 21–25, 2083",
+      "rows": [
+        { "date": "7 Nov", "bs": "Kartik 21", "name": "Kag Tihar", "note": "Crows are fed at dawn." },
+        { "date": "8 Nov", "bs": "Kartik 22", "name": "Kukur Tihar", "note": "Dogs are honoured with garlands and tika." },
+        { "date": "9 Nov", "bs": "Kartik 23", "name": "Gai Tihar & Laxmi Puja", "note": "Cows by day, lamps and rangoli at night." },
+        { "date": "10 Nov", "bs": "Kartik 24", "name": "Govardhan Puja & Mha Puja", "note": "Newar families mark the Nepal Sambat new year." },
+        { "date": "11 Nov", "bs": "Kartik 25", "name": "Bhai Tika", "note": "Sisters and brothers exchange tika and gifts." }
+      ],
+      "note": "Kukur Tihar and Laxmi Puja fall close together; households follow their own patro and family custom.",
+      "holidays": "Public holidays can vary by province and year. Check a current Nepali calendar before travelling.",
+      "calendarCta": "Add dates to calendar",
       "source": "Dates checked against Hamro Patro 2083 and Nepali Calendar 2083."
     },
     "days": {
@@ -232,7 +245,7 @@
         },
         {
           "title": "Make a rangoli",
-          "body": "Use rice flour, coloured powder, sand or petals. Start with a circle and build outward. The motif in this site is a placeholder, not a rule."
+          "body": "Use rice flour, coloured powder, sand or petals. Start with a circle and build outward. Every household has its own pattern."
         },
         {
           "title": "Feed the day's animal",
@@ -262,8 +275,43 @@
         ]
       }
     },
-    "kitchen": {},
+    "kitchen": {
+      "intro": "A few things actually made in a Tihar kitchen.",
+      "recipes": [
+        {
+          "name": "Sel roti", "ne": "सेल रोटी", "meta": "Rice-flour ring · sweet · 8–10 pieces",
+          "ingredients": ["2 cups rice flour", "1 cup sugar", "1 tsp cardamom", "½ tsp baking powder", "Pinch of salt", "Warm water or milk", "Oil or ghee for frying"],
+          "steps": ["Mix the dry ingredients.", "Add warm water or milk gradually to a smooth, thick batter. Rest 30 minutes.", "Heat oil in a wide, shallow pan.", "Pour a thin ring of batter into the oil; fry until golden on both sides.", "Drain and serve warm."],
+          "note": "The batter should coat a spoon but still fall in a thin stream."
+        },
+        {
+          "name": "Anarsa", "ne": "अनारसा", "meta": "Rice and jaggery biscuit · 12 pieces",
+          "ingredients": ["2 cups glutinous rice flour", "1 cup powdered jaggery", "2 tbsp sesame seeds", "1 tbsp poppy seeds", "Ghee or oil for frying"],
+          "steps": ["Rub flour and jaggery together until it looks like wet sand.", "Add a little water to form a stiff dough; rest overnight.", "Shape into small discs and press seeds on both sides.", "Fry slowly in medium-hot ghee until crisp and deep golden.", "Cool before storing."],
+          "note": "Often made in Newar households for Mha Puja and Bhai Tika."
+        }
+      ]
+    },
     "words": {
+      "intro": "A few words you will hear over the five days.",
+      "glossary": [
+        { "word": "Tihar", "pron": "ti-har", "meaning": "The five-day festival of lights, also called Deepawali in Nepal." },
+        { "word": "Diya", "pron": "di-yo", "meaning": "A small oil lamp, usually clay with a cotton wick." },
+        { "word": "Rangoli", "pron": "rang-o-li", "meaning": "A floor pattern made from rice flour, powder, sand or petals." },
+        { "word": "Tika", "pron": "ti-ka", "meaning": "A mark of blessing on the forehead, often made with coloured powder and rice." },
+        { "word": "Mala", "pron": "ma-la", "meaning": "A garland, most often of marigolds." },
+        { "word": "Deusi / Bhailo", "pron": "deu-si / bhail-o", "meaning": "Songs sung door to door during the festival." },
+        { "word": "Patro", "pron": "pat-ro", "meaning": "The Nepali calendar that fixes festival dates." },
+        { "word": "Nepal Sambat", "pron": "ne-pal sam-bat", "meaning": "The lunar calendar whose new year falls on Mha Puja." }
+      ],
+      "sources": [
+        { "label": "Hamro Patro 2083", "url": "https://www.hamropatro.com/" },
+        { "label": "Nepali Calendar 2083", "url": "https://www.nepalicalendar.com/" },
+        { "label": "Tihar — Wikipedia", "url": "https://en.wikipedia.org/wiki/Tihar" },
+        { "label": "Nepal Tourism Board", "url": "https://ntb.gov.np/" }
+      ],
+      "sourceNote": "Dates were checked against published Nepali calendars; cultural notes were cross-checked with more than one Nepali family.",
+      "credits": "Built for the Tihar House UI competition. Motion and overlays are original SVG and CSS; photography is from Wikimedia Commons under the licences credited on the final slide. Type: Cormorant Garamond, DM Sans, Noto Serif Devanagari and Mukta. Audio is a synthesized room tone.",
       "confirmTitle": "Fact-checked",
       "confirmBody": "Every detail here has been confirmed with multiple Nepali families and checked against published Nepali calendars and cultural sources. Where households differ, we say so rather than guess."
     },

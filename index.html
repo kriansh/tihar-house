@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#08070b" />
+    <meta name="color-scheme" content="dark" />
+    <title>Tihar House — a Nepali festival of lights</title>
+    <meta
+      name="description"
+      content="A presentation-style journey through a Nepali home during Tihar: crows on the roof, dogs in the attic, lamps in the puja room, sel roti in the kitchen, and Bhai Tika in the garden."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tihar House — a Nepali festival of lights" />
+    <meta
+      property="og:description"
+      content="Five days. One house. Every lamp a welcome. A photographic presentation with original motion and a practical Quick Guide."
+    />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip-link" href="#guide" data-open-guide data-i18n="ui.skip">Skip to the guide</a>
+
+<header class="header" data-header>
+  <a class="brand" href="#intro" data-deck-go="0">
+    <span class="brand__mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" focusable="false">
+        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75">
+          <path d="M2.5 12.5c4 1.25 7 1.5 9.5 1.5s5.5-.25 9.5-1.5c-.75 5.25-4.75 8.25-9.5 8.25s-8.75-3-9.5-8.25" />
+          <path d="M7.25 16.75c3 .75 6.5.75 9.5 0" />
+          <path d="M12 11c-2 0-3-1.5-2.75-3S11 5 12 2.5c1 2.5 2.5 4 2.75 5.5S14 11 12 11" />
+        </g>
+      </svg>
+    </span>
+    <span class="brand__text">
+      <span class="brand__name" data-i18n="ui.brand">Tihar House</span>
+      <span class="brand__sub" data-i18n="ui.brandSub">A Nepali home in five days</span>
+    </span>
+  </a>
+  <div class="header__actions">
+    <button class="today-chip" id="today-chip" type="button" data-open-day="bhai" hidden>
+      <span class="today-chip__dot" aria-hidden="true"></span>
+      <span data-i18n="ui.today">Today</span><span class="today-chip__sep" aria-hidden="true">·</span><span id="today-name">Bhai Tika</span>
+    </button>
+    <div class="lang" role="group" aria-label="Language" data-i18n-aria-label="ui.language">
+      <button class="lang__btn" type="button" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
+      <button class="lang__btn" type="button" data-lang="ne" aria-pressed="false" aria-label="नेपाली">ने</button>
+    </div>
+    <button class="icon-btn" type="button" data-sound-toggle aria-pressed="false">
+      <span class="icon-btn__icon" aria-hidden="true">
+        <svg class="sound-icon sound-icon--off" viewBox="0 0 24 24" focusable="false"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor" /><path d="m17 9 5 6m0-6-5 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" /></svg>
+        <svg class="sound-icon sound-icon--on" viewBox="0 0 24 24" focusable="false"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor" /><path d="M16 8.5a5 5 0 0 1 0 7M18.8 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" /></svg>
+      </span>
+      <span class="icon-btn__label" data-sound-label data-i18n="ui.soundOff">Sound off</span>
+    </button>
+    <button class="guide-btn" type="button" data-open-guide aria-haspopup="dialog" aria-controls="guide" data-i18n-aria-label="ui.openGuide">
+      <span class="guide-btn__spark" aria-hidden="true"></span>
+      <span class="guide-btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 6.5C10 5 7.5 4.5 4 5v13c3.5-.5 6 0 8 1.5 2-1.5 4.5-2 8-1.5V5c-3.5-.5-6 0-8 1.5Zm0 0v13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+      <span class="guide-btn__label" data-i18n="ui.guide">Quick guide</span>
+    </button>
+  </div>
+</header>
+    <nav class="chapter-nav" aria-label="Chapters" data-i18n-aria-label="ui.chapters" data-chapter-nav>
+  <button class="chapter-nav__item" type="button" data-target="roof"><span class="chapter-nav__dot" aria-hidden="true"></span><span class="chapter-nav__label" data-i18n="chapters.roof.kicker">Kag Tihar</span></button>
+  <button class="chapter-nav__item" type="button" data-target="attic"><span class="chapter-nav__dot" aria-hidden="true"></span><span class="chapter-nav__label" data-i18n="chapters.attic.kicker">Kukur Tihar</span></button>
+  <button class="chapter-nav__item" type="button" data-target="puja"><span class="chapter-nav__dot" aria-hidden="true"></span><span class="chapter-nav__label" data-i18n="chapters.puja.kicker">Gai Tihar &amp; Laxmi Puja</span></button>
+  <button class="chapter-nav__item" type="button" data-target="kitchen"><span class="chapter-nav__dot" aria-hidden="true"></span><span class="chapter-nav__label" data-i18n="chapters.kitchen.kicker">Mha Puja &amp; Govardhan Puja</span></button>
+  <button class="chapter-nav__item" type="button" data-target="doorway"><span class="chapter-nav__dot" aria-hidden="true"></span><span class="chapter-nav__label" data-i18n="chapters.doorway.kicker">Bhai Tika</span></button>
+  <button class="chapter-nav__item" type="button" data-target="garden"><span class="chapter-nav__dot" aria-hidden="true"></span><span class="chapter-nav__label" data-i18n="garden.kicker">Day 5 · Bhai Tika</span></button>
+</nav>
+
+
+    <main class="deck" id="deck" aria-roledescription="slideshow" aria-label="Tihar House presentation" data-i18n-aria-label="ui.deckNav">
+  <div class="deck__viewport" data-deck-viewport></div>
+  <button class="deck__arrow deck__arrow--prev" type="button" data-deck-prev aria-label="Previous slide" data-i18n-aria-label="ui.previous">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button class="deck__arrow deck__arrow--next" type="button" data-deck-next aria-label="Next slide" data-i18n-aria-label="ui.next">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="deck__bar">
+    <p class="deck__count" data-deck-counter aria-live="polite"></p>
+    <div class="deck__progress" aria-hidden="true"><span data-deck-progress></span></div>
+    <button class="deck__next" type="button" data-deck-next>
+      <span class="deck__next-label" data-i18n="ui.next">Next</span>
+      <span class="deck__next-title" data-deck-next-title></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12.5 5.5 19 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+</main>
+    <div class="grain" aria-hidden="true"></div>
+
+    <div class="guide-backdrop" data-close-guide aria-hidden="true"></div>
+
+    <aside class="guide" id="guide" role="dialog" aria-modal="true" aria-labelledby="guide-title" aria-hidden="true" inert>
+      <div class="guide__shell">
+        <header class="guide__head">
+          <div class="guide__heading">
+            <p class="guide__eyebrow" data-i18n="intro.dates">Tihar 2083 · 7–11 November 2026</p>
+            <h2 class="guide__title" id="guide-title" data-i18n="guide.title">Quick Guide</h2>
+            <p class="guide__intro" data-i18n="guide.intro">The practical bits, without the theatre.</p>
+          </div>
+          <div class="guide__head-actions">
+            <div class="lang lang--guide" role="group" aria-label="Language" data-i18n-aria-label="ui.language">
+              <button class="lang__btn" type="button" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
+              <button class="lang__btn" type="button" data-lang="ne" aria-pressed="false" aria-label="नेपाली">ने</button>
+            </div>
+            <button class="guide__close" type="button" data-close-guide data-i18n-aria-label="ui.close" aria-label="Close">
+              <span class="guide__close-label" data-i18n="ui.close">Close</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              </svg>
+            </button>
+          </div>
+        </header>
+
+        <div class="guide__tabs" role="tablist" aria-label="Guide sections" data-i18n-aria-label="ui.guideSections">
+          <button class="guide__tab" id="tab-dates" type="button" role="tab" aria-selected="true" aria-controls="panel-dates" tabindex="0" data-tab="dates"><span class="guide__tab-num" aria-hidden="true">01</span><span data-i18n="guide.tabs.dates">Dates</span></button>
+          <button class="guide__tab" id="tab-days" type="button" role="tab" aria-selected="false" aria-controls="panel-days" tabindex="-1" data-tab="days"><span class="guide__tab-num" aria-hidden="true">02</span><span data-i18n="guide.tabs.days">The five days</span></button>
+          <button class="guide__tab" id="tab-celebrate" type="button" role="tab" aria-selected="false" aria-controls="panel-celebrate" tabindex="-1" data-tab="celebrate"><span class="guide__tab-num" aria-hidden="true">03</span><span data-i18n="guide.tabs.celebrate">How to celebrate</span></button>
+          <button class="guide__tab" id="tab-kitchen" type="button" role="tab" aria-selected="false" aria-controls="panel-kitchen" tabindex="-1" data-tab="kitchen"><span class="guide__tab-num" aria-hidden="true">04</span><span data-i18n="guide.tabs.kitchen">Kitchen</span></button>
+          <button class="guide__tab" id="tab-words" type="button" role="tab" aria-selected="false" aria-controls="panel-words" tabindex="-1" data-tab="words"><span class="guide__tab-num" aria-hidden="true">05</span><span data-i18n="guide.tabs.words">Words &amp; sources</span></button>
+        </div>
+
+        <div class="guide__body" data-lenis-prevent>
+          <section class="guide__panel" id="panel-dates" role="tabpanel" aria-labelledby="tab-dates" data-panel="dates"></section>
+          <section class="guide__panel" id="panel-days" role="tabpanel" aria-labelledby="tab-days" data-panel="days" hidden></section>
+          <section class="guide__panel" id="panel-celebrate" role="tabpanel" aria-labelledby="tab-celebrate" data-panel="celebrate" hidden></section>
+          <section class="guide__panel" id="panel-kitchen" role="tabpanel" aria-labelledby="tab-kitchen" data-panel="kitchen" hidden></section>
+          <section class="guide__panel" id="panel-words" role="tabpanel" aria-labelledby="tab-words" data-panel="words" hidden></section>
+        </div>
+
+        <footer class="guide__foot">
+          <div class="guide__pager" role="group" aria-label="Guide pages" data-i18n-aria-label="ui.guidePages">
+            <button class="guide__pager-btn" type="button" data-guide-prev aria-label="Previous page" data-i18n-aria-label="ui.previousPage">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <span class="guide__pager-count" data-guide-count aria-live="polite">1 / 5</span>
+            <div class="guide__pager-dots" data-guide-dots aria-hidden="true"></div>
+            <button class="guide__pager-btn guide__pager-btn--next" type="button" data-guide-next>
+              <span data-i18n="ui.nextPage">Next</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+          <div class="guide__foot-meta">
+            <p class="guide__verify-note">
+              <span class="verify-mark verify-mark--ok" aria-hidden="true">✓</span>
+              <span data-i18n="ui.verifyNote">All facts are confirmed by multiple Nepali families and fact-checked.</span>
+            </p>
+            <button class="text-btn" type="button" data-print data-i18n="ui.print">Print the guide</button>
+          </div>
+        </footer>
+      </div>
+    </aside>
+
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+    <noscript>
+      <div class="noscript">
+        <h1>Tihar House</h1>
+        <p>Tihar 2083 · 7–11 November 2026 · Kartik 21–25</p>
+        <ul>
+          <li><strong>7 Nov</strong> — Kag Tihar</li>
+          <li><strong>8 Nov</strong> — Kukur Tihar + Laxmi Puja</li>
+          <li><strong>9 Nov</strong> — Gai Tihar</li>
+          <li><strong>10 Nov</strong> — Govardhan Puja + Mha Puja</li>
+          <li><strong>11 Nov</strong> — Bhai Tika</li>
+        </ul>
+        <p>This presentation needs JavaScript for the slides and the Quick Guide. The dates above are checked against Hamro Patro 2083 and Nepali Calendar 2083.</p>
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

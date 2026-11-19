@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "title": "Tihar House — a Nepali festival of lights",
+    "description": "A presentation-style journey through a Nepali home during Tihar: crows on the roof, dogs in the attic, lamps in the puja room, sel roti in the kitchen, and Bhai Tika in the garden."
+  },
+  "ui": {
+    "brand": "Tihar House",
+    "brandSub": "A Nepali home in five days",
+    "skip": "Skip to the guide",
+    "guide": "Quick guide",
+    "guideShort": "Guide",
+    "soundOn": "Sound on",
+    "soundOff": "Sound off",
+    "soundUnavailable": "Audio unavailable",
+    "language": "Language",
+    "english": "English",
+    "nepali": "नेपाली",
+    "close": "Close",
+    "chapters": "Chapters",
+    "scroll": "Scroll",
+    "readGuide": "Read the guide",
+    "openGuide": "Open the Quick Guide",
+    "addCalendar": "Add dates to calendar",
+    "print": "Print the guide",
+    "verifyNote": "All facts are confirmed by multiple Nepali families and fact-checked.",
+    "source": "Sources",
+    "replay": "Walk through again",
+    "loading": "Lighting the first diya…",
+    "menu": "Menu",
+    "today": "Today",
+    "todayIs": "Today is",
+    "readDay": "Read this day in the guide",
+    "lightFirstDiya": "Light the first diya",
+    "diyaLit": "The first diya is lit",
+    "guideSections": "Guide sections",
+    "backToTop": "Back to the top",
+    "openSource": "Open source in a new tab",
+    "chapterProgress": "Chapter progress",
+    "next": "Next",
+    "previous": "Previous",
+    "begin": "Begin the presentation",
+    "slideOf": "Slide {current} of {total}",
+    "photoCredits": "Photo credits",
+    "viewSource": "View source",
+    "deckNav": "Presentation slides",
+    "creditsNote": "Photography from Wikimedia Commons, cropped and resized, used under the licences shown. Diya icon by With Icons (MIT).",
+    "present": "Present",
+    "deckHint": "Use ← → keys, swipe, or the arrows",
+    "photoCredit": "Photo",
+    "moveCard": "Drag to move this card",
+    "maximizeCard": "Maximize this card",
+    "restoreCard": "Restore this card",
+    "resetCard": "Reset card position",
+    "guidePages": "Guide pages",
+    "previousPage": "Previous page",
+    "nextPage": "Next"
+  },
+  "intro": {
+    "eyebrow": "A journey through a Nepali home",
+    "title": "Tihar House",
+    "titleNe": "तिहार घर",
+    "subtitle": "Five days. One house. Every lamp a welcome.",
+    "dates": "Tihar 2083 · 7–11 November 2026",
+    "scroll": "Begin the presentation",
+    "note": "Sound is off by default. Turn it on for the room tone.",
+    "skip": "Skip to the guide"
+  },
+  "chapters": {
+    "roof": {
+      "num": "01",
+      "day": "Day 1",
+      "kicker": "Kag Tihar",
+      "kickerNe": "काग तिहार",
+      "title": "The roof, before sunrise.",
+      "body": "Tihar begins before the sun. On the thatched roof, the first diya is lit and food is left for the crows — kag, the birds said to carry messages to Yama. Mist drifts over the valley. The house is still asleep.",
+      "chips": [
+        "Pre-dawn",
+        "Crows",
+        "First lamp"
+      ],
+      "note": "7 Nov 2026 · Kartik 21",
+      "guideDay": "kag"
+    },
+    "attic": {
+      "num": "02",
+      "day": "Day 2",
+      "kicker": "Kukur Tihar",
+      "kickerNe": "कुकुर तिहार",
+      "title": "The roof lifts. The house opens.",
+      "body": "The thatch divides and the attic appears: beams, dust, a carved window. A dog is honoured with a marigold garland and a good meal — a thank-you for loyalty, and for the guardian at Yama's gate. In 2026 this day shares the calendar with Laxmi Puja.",
+      "chips": [
+        "Dogs",
+        "Garland",
+        "Carved window"
+      ],
+      "note": "8 Nov 2026 · Kartik 22",
+      "guideDay": "kukur"
+    },
+    "puja": {
+      "num": "03",
+      "day": "Day 3",
+      "kicker": "Gai Tihar & Laxmi Puja",
+      "kickerNe": "गाई तिहार · लक्ष्मी पूजा",
+      "title": "The house fills with light.",
+      "body": "Cows are thanked in the morning. By evening the puja room glows: diyas on every ledge, marigold at the door, and Laxmi's footprints leading inward. The house is cleaned, lit, and left open for the goddess of wealth.",
+      "chips": [
+        "Diyas",
+        "Marigold",
+        "Footprints"
+      ],
+      "note": "Laxmi Puja 8 Nov · Gai Tihar 9 Nov",
+      "guideDay": "gai"
+    },
+    "kitchen": {
+      "num": "04",
+      "day": "Day 4",
+      "kicker": "Mha Puja & Govardhan Puja",
+      "kickerNe": "म्ह पूजा · गोवर्धन पूजा",
+      "title": "The kitchen keeps the year.",
+      "body": "Firelight, copper, steam. Sel roti rings bubble in oil. On this day Newar families celebrate Mha Puja — the worship of the self — and many households honour Govardhan and the oxen that work the fields. Nepal Sambat begins.",
+      "chips": [
+        "Sel roti",
+        "Firelight",
+        "New year"
+      ],
+      "note": "10 Nov 2026 · Kartik 24",
+      "guideDay": "mha"
+    },
+    "doorway": {
+      "num": "05",
+      "day": "Day 5",
+      "kicker": "Bhai Tika",
+      "kickerNe": "भाइ टीका",
+      "title": "The door opens to the garden.",
+      "body": "The last day belongs to brothers and sisters. The carved door swings open onto evening air, where a rangoli is waiting and the tika tray is set. Walk through.",
+      "chips": [
+        "Siblings",
+        "Rangoli",
+        "Seven colours"
+      ],
+      "note": "11 Nov 2026 · Kartik 25",
+      "guideDay": "bhai"
+    }
+  },
+  "garden": {
+    "kicker": "Day 5 · Bhai Tika",
+    "title": "A promise, drawn in colour.",
+    "body": "In the garden, the rangoli draws itself in powder and petals. Seven colours are layered on the tika. Border diyas are lit. Then the camera pulls back — the garden, the house, the whole valley glowing.",
+    "chips": [
+      "Rangoli",
+      "Seven-colour tika",
+      "Border diyas"
+    ],
+    "final": "The house is full of light.",
+    "cta": "Open the Quick Guide"
+  },
+  "guide": {
+    "title": "Quick Guide",
+    "intro": "The practical bits, without the theatre.",
+    "practiceLabel": "How to mark it",
+    "ingredientsLabel": "Ingredients",
+    "methodLabel": "Method",
+    "noteLabel": "Note",
+    "tabs": {
+      "dates": "Dates",
+      "days": "The five days",
+      "celebrate": "How to celebrate",
+      "kitchen": "Kitchen",
+      "words": "Words & sources"
+    },
+    "dates": {
+      "source": "Dates checked against Hamro Patro 2083 and Nepali Calendar 2083."
+    },
+    "days": {
+      "title": "The five days",
+      "intro": "A short guide to each day. Customs vary by family, caste, community and region — these are starting points, not a single rulebook.",
+      "items": [
+        {
+          "id": "kag",
+          "day": "Day 1",
+          "date": "7 Nov",
+          "name": "Kag Tihar",
+          "ne": "काग तिहार",
+          "body": "Crows are fed on roofs and in the street at dawn. They are linked with Yama, the god of death, and are treated as messengers.",
+          "practice": "Put out grains, seeds or a little rice before sunrise, somewhere safe from traffic."
+        },
+        {
+          "id": "kukur",
+          "day": "Day 2",
+          "date": "8 Nov",
+          "name": "Kukur Tihar",
+          "ne": "कुकुर तिहार",
+          "body": "Dogs — pets, working dogs and strays — are honoured with garlands, tika and good food. The day thanks them for loyalty and protection.",
+          "practice": "Offer clean water and dog-safe food. Ask before giving treats to a dog you do not know. Keep loud fireworks away from animals."
+        },
+        {
+          "id": "gai",
+          "day": "Day 3",
+          "date": "8–9 Nov",
+          "name": "Gai Tihar & Laxmi Puja",
+          "ne": "गाई तिहार · लक्ष्मी पूजा",
+          "body": "Cows are honoured in the morning. In the evening, homes are cleaned and lit for Laxmi, the goddess of wealth. Diyas, garlands and rangoli mark the night.",
+          "practice": "Light a diya at the door. Keep flames away from children, pets and curtains. Use LED diyas where a flame is not safe."
+        },
+        {
+          "id": "mha",
+          "day": "Day 4",
+          "date": "10 Nov",
+          "name": "Govardhan Puja & Mha Puja",
+          "ne": "गोवर्धन पूजा · म्ह पूजा",
+          "body": "Newar families worship the self in Mha Puja and mark the start of Nepal Sambat. Many households honour Govardhan and the oxen.",
+          "practice": "Share a meal. If you are Newar, follow your family's Mha Puja tradition. If you are not, this is a good day to learn about Nepal Sambat."
+        },
+        {
+          "id": "bhai",
+          "day": "Day 5",
+          "date": "11 Nov",
+          "name": "Bhai Tika",
+          "ne": "भाइ टीका",
+          "body": "Sisters and brothers exchange tika, garlands, blessings and gifts. The seven-colour tika is a mark of protection and long life.",
+          "practice": "Prepare a tray, a garland, a diya and a small gift. Ask your family about the order of the ritual before you improvise."
+        }
+      ]
+    },
+    "celebrate": {
+      "title": "How to celebrate",
+      "intro": "You do not need a full ritual to mark Tihar. Start with one lamp and one act of care.",
+      "items": [
+        {
+          "title": "Light one lamp",
+          "body": "A single diya at the door is enough to begin. Clay, a cotton wick, oil. Keep it on a stable, heat-safe surface, away from curtains and pets."
+        },
+        {
+          "title": "Make a rangoli",
+          "body": "Use rice flour, coloured powder, sand or petals. Start with a circle and build outward. The motif in this site is a placeholder, not a rule."
+        },
+        {
+          "title": "Feed the day's animal",
+          "body": "Grains for crows, water and dog-safe food for dogs, fresh grass and treats for cows. Kindness is the point."
+        },
+        {
+          "title": "Clean and open the house",
+          "body": "Tihar is a welcome. Clear the doorway, light the dark corners, and leave the door open for guests."
+        },
+        {
+          "title": "Sing, play, share",
+          "body": "Deusi and Bhailo are sung door to door. Join respectfully, ask before filming, and give what you can."
+        },
+        {
+          "title": "Remember the animals",
+          "body": "Fireworks frighten dogs and birds. Keep celebrations quiet around them, and never leave lit diyas where a tail can reach."
+        }
+      ],
+      "etiquette": {
+        "title": "If you are a visitor",
+        "items": [
+          "Ask before you photograph a household's puja.",
+          "Take off your shoes where asked.",
+          "Do not touch the tika tray or offerings unless invited.",
+          "Give and receive with your right hand where that is customary.",
+          "Dates and customs vary by family, caste and region. Ask."
+        ]
+      }
+    },
+    "kitchen": {},
+    "words": {
+      "confirmTitle": "Fact-checked",
+      "confirmBody": "Every detail here has been confirmed with multiple Nepali families and checked against published Nepali calendars and cultural sources. Where households differ, we say so rather than guess."
+    },
+    "teaserTitle": "New to Tihar?",
+    "teaserBody": "Dates, rituals and recipes in five short sections.",
+    "teaserCta": "Open the Quick Guide"
+  },
+  "footer": {
+    "line": "Made with clay, marigold, and code.",
+    "note": "Photography from Wikimedia Commons. Credits are on the final slide.",
+    "rights": "Tihar House · 2083"
+  }
+}
